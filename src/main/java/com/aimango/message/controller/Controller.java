@@ -8,6 +8,7 @@ import org.apache.pulsar.client.api.PulsarClient;
 import org.apache.pulsar.client.api.PulsarClientException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -20,6 +21,9 @@ public class Controller {
 
     @Autowired
     private PulsarClient pulsarClient;
+
+    @Autowired
+    private StringRedisTemplate redisTemplate;
 
     @GetMapping(path = "test")
     public String test(){
@@ -57,5 +61,12 @@ public class Controller {
         }else {
             return "false";
         }
+    }
+
+    @GetMapping(path = "redis")
+    public String redisTest(){
+        redisTemplate.opsForValue().set("xxx","aaa");
+        String res=redisTemplate.opsForValue().get("xxx");
+        return res;
     }
 }
