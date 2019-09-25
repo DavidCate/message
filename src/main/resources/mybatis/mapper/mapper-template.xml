@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.aimango.message.dao.TestMapper">
+    <select id="getTest" resultMap="testMap">
+        select * from `user` where username=#{username} and password=#{password}
+    </select>
+    <resultMap id="testMap" type="com.aimango.message.pojo.User">
+        <result column="username" property="userName"/>
+        <result column="password" property="passWord"/>
+    </resultMap>
+</mapper>

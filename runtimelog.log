@@ -1,0 +1,32 @@
+2019-09-25 20:43:25.094  INFO 20384 --- [restartedMain] com.aimango.message.MessageApplication   : Starting MessageApplication on david-Lenovo-G50-80m with PID 20384 (started by david in /home/david/Idea Project/message)
+2019-09-25 20:43:25.099  INFO 20384 --- [restartedMain] com.aimango.message.MessageApplication   : No active profile set, falling back to default profiles: default
+2019-09-25 20:43:25.194  INFO 20384 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-25 20:43:25.194  INFO 20384 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-25 20:43:27.296  INFO 20384 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2019-09-25 20:43:27.329  INFO 20384 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-25 20:43:27.330  INFO 20384 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-25 20:43:27.418  INFO 20384 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-25 20:43:27.419  INFO 20384 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2225 ms
+2019-09-25 20:43:28.388  INFO 20384 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-25 20:43:28.641  INFO 20384 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-25 20:43:28.698  INFO 20384 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2019-09-25 20:43:28.702  INFO 20384 --- [restartedMain] com.aimango.message.MessageApplication   : Started MessageApplication in 4.478 seconds (JVM running for 5.657)
+2019-09-25 20:43:30.893  INFO 20384 --- [Thread-18] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-25 20:43:30.894  INFO 20384 --- [Thread-18] o.a.pulsar.client.impl.PulsarClientImpl  : Client closing. URL: pulsar://pulsar.aimango.net:6650
+2019-09-25 20:43:42.685  INFO 20512 --- [restartedMain] com.aimango.message.MessageApplication   : Starting MessageApplication on david-Lenovo-G50-80m with PID 20512 (started by david in /home/david/Idea Project/message)
+2019-09-25 20:43:42.693  INFO 20512 --- [restartedMain] com.aimango.message.MessageApplication   : No active profile set, falling back to default profiles: default
+2019-09-25 20:43:42.853  INFO 20512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-25 20:43:42.853  INFO 20512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-25 20:43:46.171  INFO 20512 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2019-09-25 20:43:46.206  INFO 20512 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-25 20:43:46.206  INFO 20512 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-25 20:43:46.346  INFO 20512 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-25 20:43:46.347  INFO 20512 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3493 ms
+2019-09-25 20:43:47.774  INFO 20512 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-25 20:43:48.032  INFO 20512 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-25 20:43:48.093  INFO 20512 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2019-09-25 20:43:48.099  INFO 20512 --- [restartedMain] com.aimango.message.MessageApplication   : Started MessageApplication in 6.714 seconds (JVM running for 7.992)
+2019-09-25 20:43:53.112  INFO 20512 --- [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-25 20:43:53.113  INFO 20512 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-25 20:43:53.128  INFO 20512 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2019-09-25 20:43:53.958  INFO 20512 --- [http-nio-8000-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
